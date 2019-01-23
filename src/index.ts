@@ -19,6 +19,7 @@ export interface CaptureTarget {
 export interface CaptureResult {
   image: Buffer
   url: string
+  capturedUrl: string
   target: string
   hidden: string[]
   remove: string[]

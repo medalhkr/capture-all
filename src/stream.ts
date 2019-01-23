@@ -196,6 +196,7 @@ export class PuppeteerWrapper {
       return {
         image: await el.screenshot(),
         url: t.url,
+        capturedUrl: page.url(),
         target: t.target,
         hidden: t.hidden,
         remove: t.remove,
